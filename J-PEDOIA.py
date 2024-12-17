@@ -120,7 +120,7 @@ while toPrint != 9:
     if toPrint == 0:
         for i, v in enumerate(sections):
             call(v)
-    elif toPrint < 8:
+    elif 0 < toPrint < 8:
         s = sections[toPrint - 1]
         call(s)
         
