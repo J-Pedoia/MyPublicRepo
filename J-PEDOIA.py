@@ -24,79 +24,82 @@ def call(section):
 
 
 data = {b'RVhQRVJJRU5DRVMgUFJPRkVTU0lPTk5FTExFUw==': [{b'VGl0cmU=': b'QWRtaW5pc3RyYXRldXIgU0lH',
-                                          b'RW1wbG95ZXVy': b'VmlsbGUgZGUgTm91bcOpYQ==',
-                                          b'QW5uw6ll': b'MjAyMA==',
-                                          b'RHVyw6ll': b'NCBhbnM=',
-                                          b'TGlldQ==': b'Tm91bcOpYSwgTm91dmVsbGUtQ2Fsw6lkb25pZSAoOTgp',
-                                          b'VGFjaGVz': [
-                                              b'LSBBZG1pbmlzdHJhdGlvbiBldCBtYWludGllbiBlbiBjb25kaXRpb24gb3DDqXJhdGlvbm5lbGxlIGR1IFNJRy4=',
-                                              b'LSBWZWlsbGUgdGVjaG5vbG9naXF1ZSBldCDDqXZvbHV0aW9uIGRlIGwnYXJjaGl0ZWN0dXJlIGR1IFNJRy4=',
-                                              b'LSBHZXN0aW9uIGV0IHN1cHBvcnQgZHUgcGFyYyB1dGlsaXNhdGV1ci4=',
-                                              b'LSBHZXN0aW9uIGV0IHLDqWFsaXNhdGlvbiBkZSBwcm9qZXRzIFNJRyBtw6l0aWVycyBldCB0cmFuc3ZlcnNhdXgu',
-                                              b'LSBEw6l2ZWxvcHBlbnQgZCdvdXRpbCBkJ2FpZGUgw6AgbGEgZ2VzdGlvbiBkdSBTSUcgKHB5dGhvbiwgU1FMKS4=',
-                                              b'LSBBbmFseXNlcyBzcGF0aWFsZXMgYXZhbmPDqWVzLg==',
-                                              b'LSBJbnTDqXJpbSBkdSBjaGVmIGRlIGTDqXBhcnRlbWVudCBTSUcu']
-                                          },
-                                         {b'VGl0cmU=': b'SW5nw6luaWV1ciBTSUcgLSBGb3JtYXRldXIgQXJjR0lT',
-                                          b'RW1wbG95ZXVy': b'TUFHSVMgU0FSTA==',
-                                          b'QW5uw6ll': b'MjAxMg==',
-                                          b'RHVyw6ll': b'OCBhbnM=',
-                                          b'TGlldQ==': b'Tm91bcOpYSwgTm91dmVsbGUtQ2Fsw6lkb25pZSAoOTgp',
-                                          b'VGFjaGVz': [
-                                              b'LSBHZXN0aW9uIGV0IHLDqWFsaXNhdGlvbiBkZSBwcm9qZXRzIFNJRy4=',
-                                              b'LSBCYXNlcyBkZSBkb25uw6llcyA6IGNvbmNlcHRpb24sIG1vZMOpbGlzYXRpb24sIHN0cnVjdHVyYXRpb24sIGF1dG9tYXRpc2F0aW9uLCBpbnRlcm9ww6lyYWJpbGl0w6ksIHF1YWxpdMOpLCBtw6l0YWRvbm7DqWVzLg==',
-                                              b'LSBQdWJsaWNhdGlvbiBkZSBzZXJ2aWNlcyBXZWIgU0lHLCB0cmFpdGVtZW50IFNJRyBhdmFuY8Opcy4=',
-                                              b'LSBDb25jZXB0aW9uIGRlIGNhcnRlcyBldCBkZSBzZXJ2aWNlcyBXZWIu',
-                                              b'LSBEw6l2ZWxvcHBlbWVudCBQeXRob24gcG91ciBBcmNHSVMsIGF1dG9tYXRpc2F0aW9uIGV0IG91dGlscyBtw6l0aWVyLg==']
-                                          },
-                                         {b'VGl0cmU=': b'SW5nw6luaWV1ciBTSUc=',
-                                          b'RW1wbG95ZXVy': b'Q29uc3VsdGFudCBpbmTDqXBlbmRhbnQ=',
-                                          b'QW5uw6ll': b'QW5uw6ll',
-                                          b'RHVyw6ll': b'MSBhbg==',
-                                          b'TGlldQ==': b'Tm91bcOpYSwgTm91dmVsbGUtQ2Fsw6lkb25pZSAoOTgp',
-                                          b'VGFjaGVz': [
-                                              b'LSBSw6lhbGlzYXRpb24gZGUgcHJvamV0cyBTSUcu',
-                                              b'LSBBdXRvbWF0aXNhdGlvbiwgdHJhaXRlbWVudCBTSUcgYXZhbmPDqXMu',
-                                              b'LSBDb25jZXB0aW9uIGRlIGNhcnRlcy4=']
-                                          }],
+                                                       b'RW1wbG95ZXVy': b'VmlsbGUgZGUgTm91bcOpYQ==',
+                                                       b'QW5uw6ll': b'MjAyMA==',
+                                                       b'RHVyw6ll': b'NCBhbnM=',
+                                                       b'TGlldQ==': b'Tm91bcOpYSwgTm91dmVsbGUtQ2Fsw6lkb25pZSAoOTgp',
+                                                       b'VGFjaGVz': [
+                                                           b'LSBBZG1pbmlzdHJhdGlvbiBldCBtYWludGllbiBlbiBjb25kaXRpb24gb3DDqXJhdGlvbm5lbGxlIGR1IFNJRy4=',
+                                                           b'LSBWZWlsbGUgdGVjaG5vbG9naXF1ZSBldCDDqXZvbHV0aW9uIGRlIGwnYXJjaGl0ZWN0dXJlIGR1IFNJRy4=',
+                                                           b'LSBHZXN0aW9uIGV0IHN1cHBvcnQgZHUgcGFyYyB1dGlsaXNhdGV1ci4=',
+                                                           b'LSBHZXN0aW9uIGV0IHLDqWFsaXNhdGlvbiBkZSBwcm9qZXRzIFNJRyBtw6l0aWVycyBldCB0cmFuc3ZlcnNhdXgu',
+                                                           b'LSBEw6l2ZWxvcHBlbnQgZCdvdXRpbCBkJ2FpZGUgw6AgbGEgZ2VzdGlvbiBkdSBTSUcgKHB5dGhvbiwgU1FMKS4=',
+                                                           b'LSBBbmFseXNlcyBzcGF0aWFsZXMgYXZhbmPDqWVzLg==',
+                                                           b'LSBJbnTDqXJpbSBkdSBjaGVmIGRlIGTDqXBhcnRlbWVudCBTSUcu']
+                                                       },
+                                                      {b'VGl0cmU=': b'SW5nw6luaWV1ciBTSUcgLSBGb3JtYXRldXIgQXJjR0lT',
+                                                       b'RW1wbG95ZXVy': b'TUFHSVMgU0FSTA==',
+                                                       b'QW5uw6ll': b'MjAxMg==',
+                                                       b'RHVyw6ll': b'OCBhbnM=',
+                                                       b'TGlldQ==': b'Tm91bcOpYSwgTm91dmVsbGUtQ2Fsw6lkb25pZSAoOTgp',
+                                                       b'VGFjaGVz': [
+                                                           b'LSBHZXN0aW9uIGV0IHLDqWFsaXNhdGlvbiBkZSBwcm9qZXRzIFNJRy4=',
+                                                           b'LSBCYXNlcyBkZSBkb25uw6llcyA6IGNvbmNlcHRpb24sIG1vZMOpbGlzYXRpb24sIHN0cnVjdHVyYXRpb24sIGF1dG9tYXRpc2F0aW9uLCBpbnRlcm9ww6lyYWJpbGl0w6ksIHF1YWxpdMOpLCBtw6l0YWRvbm7DqWVzLg==',
+                                                           b'LSBQdWJsaWNhdGlvbiBkZSBzZXJ2aWNlcyBXZWIgU0lHLCB0cmFpdGVtZW50IFNJRyBhdmFuY8Opcy4=',
+                                                           b'LSBDb25jZXB0aW9uIGRlIGNhcnRlcyBldCBkZSBzZXJ2aWNlcyBXZWIu',
+                                                           b'LSBEw6l2ZWxvcHBlbWVudCBQeXRob24gcG91ciBBcmNHSVMsIGF1dG9tYXRpc2F0aW9uIGV0IG91dGlscyBtw6l0aWVyLg==']
+                                                       },
+                                                      {b'VGl0cmU=': b'SW5nw6luaWV1ciBTSUc=',
+                                                       b'RW1wbG95ZXVy': b'Q29uc3VsdGFudCBpbmTDqXBlbmRhbnQ=',
+                                                       b'QW5uw6ll': b'QW5uw6ll',
+                                                       b'RHVyw6ll': b'MSBhbg==',
+                                                       b'TGlldQ==': b'Tm91bcOpYSwgTm91dmVsbGUtQ2Fsw6lkb25pZSAoOTgp',
+                                                       b'VGFjaGVz': [
+                                                           b'LSBSw6lhbGlzYXRpb24gZGUgcHJvamV0cyBTSUcu',
+                                                           b'LSBBdXRvbWF0aXNhdGlvbiwgdHJhaXRlbWVudCBTSUcgYXZhbmPDqXMu',
+                                                           b'LSBDb25jZXB0aW9uIGRlIGNhcnRlcy4=']
+                                                       }],
         b'QUdSRU1FTlQgLSBDRVJUSUZJQ0FUSU9O': [{b'QW5uw6ll': b'MjAyMA==',
-                                      b'VGl0cmU=': b'QWdyw6ltZW50IGRlIGZvcm1hdGV1ciBk4oCZYWR1bHRlcyBERlBDIE7CsCAyMDIwLzA1MDI='},
-                                     {b'QW5uw6ll': b'MjAxNQ==',
-                                      b'VGl0cmU=': b'Q2VydGlmaWNhdGlvbiB0ZWNobmlxdWUgRVNSSSDigJMgQXJjR0lTIERlc2t0b3AgQXNzb2NpYXRlIA=='}],
+                                               b'VGl0cmU=': b'QWdyw6ltZW50IGRlIGZvcm1hdGV1ciBk4oCZYWR1bHRlcyBERlBDIE7CsCAyMDIwLzA1MDI='},
+                                              {b'QW5uw6ll': b'MjAxNQ==',
+                                               b'VGl0cmU=': b'Q2VydGlmaWNhdGlvbiB0ZWNobmlxdWUgRVNSSSDigJMgQXJjR0lTIERlc2t0b3AgQXNzb2NpYXRlIA=='}],
         b'Rk9STUFUSU9OIElOSVRJQUxF': [{b'QW5uw6ll': b'MjAxMQ==',
-                                b'VGl0cmU=': b'TWFzdGVyIDIgUHJvZmVzc2lvbm5lbCBHw6lvbWF0aXF1ZSAtIFNJR01B',
-                                b'TGlldQ==': b'VW5pdmVyc2l0w6kgVG91bG91c2UgSUkg4oCTIExlIE1pcmFpbCAoMzEp'},
-                               {b'QW5uw6ll': b'MjAxMA==',
-                                b'VGl0cmU=': b'TWFzdGVyIDEgU0lHIGV0IEFtw6luYWdlbWVudCBkdSBUZXJyaXRvaXJlIC0gU0lHQVQ=',
-                                b'TGlldQ==': b'VW5pdmVyc2l0w6kgUmVubmVzIDIgSGF1dGUgQnJldGFnbmUgKDM1KSA='},
-                               {b'QW5uw6ll': b'MjAwOQ==',
-                                b'VGl0cmU=': b'TGljZW5jZSBQcm9mZXNzaW9ubmVsbGUgU0lHIC0gTFVQU0lH',
-                                b'TGlldQ==': b'VW5pdmVyc2l0w6kgZGUgTGEgUm9jaGVsbGUgKDE3KQ=='
-                                }],
+                                       b'VGl0cmU=': b'TWFzdGVyIDIgUHJvZmVzc2lvbm5lbCBHw6lvbWF0aXF1ZSAtIFNJR01B',
+                                       b'TGlldQ==': b'VW5pdmVyc2l0w6kgVG91bG91c2UgSUkg4oCTIExlIE1pcmFpbCAoMzEp'},
+                                      {b'QW5uw6ll': b'MjAxMA==',
+                                       b'VGl0cmU=': b'TWFzdGVyIDEgU0lHIGV0IEFtw6luYWdlbWVudCBkdSBUZXJyaXRvaXJlIC0gU0lHQVQ=',
+                                       b'TGlldQ==': b'VW5pdmVyc2l0w6kgUmVubmVzIDIgSGF1dGUgQnJldGFnbmUgKDM1KSA='},
+                                      {b'QW5uw6ll': b'MjAwOQ==',
+                                       b'VGl0cmU=': b'TGljZW5jZSBQcm9mZXNzaW9ubmVsbGUgU0lHIC0gTFVQU0lH',
+                                       b'TGlldQ==': b'VW5pdmVyc2l0w6kgZGUgTGEgUm9jaGVsbGUgKDE3KQ=='
+                                       }],
         b'Q09NUEVURU5DRVM=': [{b'QWRtaW5pc3RyYXRpb24gZHUgU0lH': b'NzUgJQ=='},
-                        {b'QmFzZSBkZSBkb25uw6llcw==': b'ODUgJQ=='},
-                        {b'QW5hbHlzZXMgc3BhdGlhbGVz': b'ODAgJQ=='},
-                        {b'R2VzdGlvbiBkZSBwcm9qZXQ=': b'NzUgJQ=='},
-                        {b'RMOpdmVsb3BwZW1lbnQgUHl0aG9u': b'OTAgJQ=='},
-                        {b'U3VwcG9ydCB1dGlsaXNhdGV1cg==': b'OTUgJQ=='},
-                        {b'Q29uY2VwdGlvbiBncmFwaGlxdWU=': b'NzAgJQ=='},
-                        {b'QW5nbGFpcw==': b'NzAgJQ=='}],
+                              {b'QmFzZSBkZSBkb25uw6llcw==': b'ODUgJQ=='},
+                              {b'QW5hbHlzZXMgc3BhdGlhbGVz': b'ODAgJQ=='},
+                              {b'R2VzdGlvbiBkZSBwcm9qZXQ=': b'NzUgJQ=='},
+                              {b'RMOpdmVsb3BwZW1lbnQgUHl0aG9u': b'OTAgJQ=='},
+                              {b'U3VwcG9ydCB1dGlsaXNhdGV1cg==': b'OTUgJQ=='},
+                              {b'Q29uY2VwdGlvbiBncmFwaGlxdWU=': b'NzAgJQ=='},
+                              {b'QW5nbGFpcw==': b'NzAgJQ=='}],
         b'Q09OVEFDVA==': [{b'VMOpbMOpcGhvbmU=': b'KzY4NyA4MSA5OSA4Nw=='},
-                    {b'RW1haWw=': b'amVyZW1pZS5wZWRvaWFAZ21haWwuY29t'},
-                    {b'QWRyZXNzZQ==': b'NCBydWUgSkVOTkVSLCA5ODgwMCBOT1VNRUE='},
-                    {b'bGlua2VkaW4=':b'aHR0cHM6Ly93d3cubGlua2VkaW4uY29tL2luL2rDqXLDqW1pZS1wZWRvaWEtYjFhNTNhMjkv'}],
+                          {b'RW1haWw=': b'amVyZW1pZS5wZWRvaWFAZ21haWwuY29t'},
+                          {b'QWRyZXNzZQ==': b'NCBydWUgSkVOTkVSLCA5ODgwMCBOT1VNRUE='},
+                          {
+                              b'bGlua2VkaW4=': b'aHR0cHM6Ly93d3cubGlua2VkaW4uY29tL2luL2rDqXLDqW1pZS1wZWRvaWEtYjFhNTNhMjkv'}],
         b'SU5GTyAr': [{b'QWdl': b'MzcgYW5z'},
-                   {b'U2l0dWF0aW9uIGZhbWlsaWFsZQ==': b'TWFyacOpLCBkZXV4IGVuZmFudHM='},
-                   {b'TW9iaWxpdMOp': b'UGVybWlzIEExLCBBLCBC'}],
-        b'TE9JU0lSUw==': [{b'TG9pc2lycw==': [b'RGVzaWduIC0gQ29uY2VwdGlvbiBncmFwaGlxdWU=', b'QmFza2V0IEJhbGw=', b'QmlsbGFyZA==', b'SmV1eCB2aWTDqW8=', b'TXVzaXF1ZQ==',
-                                 b'U3BvcnRzIG3DqWNhbmlxdWVz', b'QnJpY29sYWdl', b'UMOqY2hl']}]
+                      {b'U2l0dWF0aW9uIGZhbWlsaWFsZQ==': b'TWFyacOpLCBkZXV4IGVuZmFudHM='},
+                      {b'TW9iaWxpdMOp': b'UGVybWlzIEExLCBBLCBC'}],
+        b'TE9JU0lSUw==': [{b'TG9pc2lycw==': [b'RGVzaWduIC0gQ29uY2VwdGlvbiBncmFwaGlxdWU=', b'QmFza2V0IEJhbGw=',
+                                             b'QmlsbGFyZA==', b'SmV1eCB2aWTDqW8=', b'TXVzaXF1ZQ==',
+                                             b'U3BvcnRzIG3DqWNhbmlxdWVz', b'QnJpY29sYWdl', b'UMOqY2hl']}]
         }
 
-sections = [b'RVhQRVJJRU5DRVMgUFJPRkVTU0lPTk5FTExFUw==', b'QUdSRU1FTlQgLSBDRVJUSUZJQ0FUSU9O', b'Rk9STUFUSU9OIElOSVRJQUxF', b'Q09NUEVURU5DRVM=', b'Q09OVEFDVA==',
+sections = [b'RVhQRVJJRU5DRVMgUFJPRkVTU0lPTk5FTExFUw==', b'QUdSRU1FTlQgLSBDRVJUSUZJQ0FUSU9O',
+            b'Rk9STUFUSU9OIElOSVRJQUxF', b'Q09NUEVURU5DRVM=', b'Q09OVEFDVA==',
             b'SU5GTyAr', b'TE9JU0lSUw==']
 
-delay_print(f"{base64.b64decode(b'QmllbnZlbnVlIGRhbnMgbGUgUHl0aHVtIFZpdGFlIGRlIErDqXLDqW1pZSBQRURPSUEsIGluZ8OpbmlldXIgU0lH').decode('utf-8')}\n\n")
-
+delay_print(
+    f"{base64.b64decode(b'QmllbnZlbnVlIGRhbnMgbGUgUHl0aHVtIFZpdGFlIGRlIErDqXLDqW1pZSBQRURPSUEsIGluZ8OpbmlldXIgU0lH').decode('utf-8')}\n\n")
 
 delay_print(f"{base64.b64decode(b'LSBDViBjb21wbGV0ICAgICAgICAgICAgICAgICAgIDogdGFwZXogMA==').decode('utf-8')}\n"
             f"{base64.b64decode(b'LSBFeHDDqXJpZW5jZXMgcHJvZmVzc2lvbm5lbGxlcyA6IHRhcGV6IDE=').decode('utf-8')}\n"
@@ -111,24 +114,34 @@ delay_print(f"{base64.b64decode(b'LSBDViBjb21wbGV0ICAgICAgICAgICAgICAgICAgIDogdG
 
 toPrint = -1
 
-mystery = b'MTI='
-
-while toPrint != 9:
+while base64.b64encode(str.encode(str(toPrint))) != b'OQ==':
     print(" ")
-    toPrint = int(input(f"{base64.b64decode(b'Vm90cmUgY2hvaXggPT4gOg==').decode('utf-8')}"))
     
-    if toPrint == 0:
+    while True:
+        try:
+            toPrint = int(input(f"{base64.b64decode(b'Vm90cmUgY2hvaXggPT4gOg==').decode('utf-8')}"))
+            break
+        except:
+            delay_print(f"{base64.b64decode(b'NDAwIEJhZCBSZXF1ZXN0').decode('utf-8')}\n")
+            print(" ")
+    
+    if base64.b64encode(str.encode(str(toPrint))) == b'MA==':
         for i, v in enumerate(sections):
             call(v)
-    elif 0 < toPrint < 8:
+            
+    elif int(f"{base64.b64decode(b'MA==').decode('utf-8')}") < toPrint < int(f"{base64.b64decode(b'OA==').decode('utf-8')}"):
         s = sections[toPrint - 1]
         call(s)
-        
-    if base64.b64encode(str.encode(str(toPrint))) == mystery:
+    
+    elif base64.b64encode(str.encode(str(toPrint))) == b'MTI=':
         delay_print(f"{base64.b64decode(b'ICAgICAgICAgICAgICAgTyAgbw==').decode('utf-8')}\n")
         delay_print(f"{base64.b64decode(b'ICAgICAgICAgIF9cXyAgIG8=').decode('utf-8')}\n")
         delay_print(f"{base64.b64decode(b'PignPiAgIFxcLyAgb1wgLg==').decode('utf-8')}\n")
         delay_print(f"{base64.b64decode(b'ICAgICAgIC8vXF9fXz0=').decode('utf-8')}\n")
         delay_print(f"{base64.b64decode(b'ICAgICAgICAgICcn').decode('utf-8')}\n")
+    elif base64.b64encode(str.encode(str(toPrint))) == b'OQ==':
+        pass
+    else:
+        delay_print(f"{base64.b64decode(b'NDA0IE5vdCBGb3VuZA==').decode('utf-8')}\n")
 
 delay_print(f"{base64.b64decode(b'TWVyY2kgZGUgdm90cmUgYXR0ZW50aW9uICE=').decode('utf-8')}")
